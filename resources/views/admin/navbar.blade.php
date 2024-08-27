@@ -140,7 +140,7 @@
 							</div>
 						</li>
 						<li class="nav-item">
-							<a data-toggle="collapse" href="/admin/transaksi">
+							<a href="/admin/transaksi">
 								<i class="fas fa-hand-holding-usd"></i>
 								<p>Transaksi</p>
 							</a>

@@ -1,12 +1,17 @@
+@extends('admin.navbar')
+
+@section('content')
+<br><br>
 <div class="container bg-white mx-auto p-3 rounded mt-2 shadow">
-    <h4>Form Edit User</h4>
-    <form action="/admin/user/tambahuser" method="POST">
+    <h4>Form Tambah Paket</h4>
+    <form action="/admin/paket/tambah" method="POST">
+        @csrf
         <div class="form-group mt-1">
             <label>ID Outlet</label>
             <select name="id_outlet" class="form-control">
-                <option value="">1</option>
-                <option value="">1</option>
-                <option value="">1</option>
+            @foreach ($get as $outlet)
+                <option value="{{$outlet->id}}">{{$outlet->id}} - {{ $outlet->name }}</option>
+            @endforeach
             </select>
         </div>
         <div class="form-group mt-1">
@@ -15,7 +20,7 @@
         </div>
         <div class="form-group mt-1">
             <label>Jenis Paket</label>
-            <select name="jk" class="form-control">
+            <select name="jenis" class="form-control">
                 <option value="Kiloan">Kiloan</option>
                 <option value="Selimut">Selimut</option>
                 <option value="Bed Cover">Bed Cover</option>
@@ -32,3 +37,4 @@
         </div>
     </form>
 </div>
+@endsection
