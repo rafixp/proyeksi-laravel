@@ -1,0 +1,23 @@
+2024-08-28 07:23:32.431 [error] Error: Unable to retrieve mac address (unexpected format)
+    at R (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:43:38824)
+    at c (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:43:39902)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/share/code/resources/app/out/vs/code/electron-main/main.js:43:39778
+    at async R (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:103:1369)
+    at async k (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:103:1796)
+    at async Promise.all (index 0)
+    at async yt.startup (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:114:57473)
+    at async Ce.a (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:116:1273)
+2024-08-28 07:23:32.550 [info] update#setState idle
+2024-08-28 07:23:34.681 [error] update#isLatestVersion(): failed to check for updates
+2024-08-28 07:23:34.683 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-08-28 07:24:02.551 [info] update#setState checking for updates
+2024-08-28 07:24:02.561 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-08-28 07:24:02.561 [info] update#setState idle
+2024-08-28 08:24:03.666 [info] update#setState checking for updates
+2024-08-28 08:24:04.765 [info] update#setState idle
+2024-08-28 08:48:07.336 [info] Extension host with pid 2971 exited with code: 0, signal: unknown.

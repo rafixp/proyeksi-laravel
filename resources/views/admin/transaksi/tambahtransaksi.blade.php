@@ -57,7 +57,7 @@
         </div>
         <div class="form-group mt-1">
             <label>Dibayar</label>
-            <select name="status" class="form-control form-control">
+            <select name="dibayar" class="form-control form-control">
                 <option value="Dibayar">Dibayar</option>
                 <option value="Belum Dibayar">Belum Dibayar</option>
             </select>

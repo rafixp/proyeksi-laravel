@@ -1,0 +1,6 @@
+2024-08-28 07:23:33.624 [info] Started local extension host with pid 2971.
+2024-08-28 07:23:33.975 [error] [onecentlin.laravel5-snippets]: Unknown language in `contributes.laravel5-snippets.language`. Provided value: blade
+2024-08-28 07:23:36.099 [warning] Failed to fetch chat participant registry Offline
+2024-08-28 07:23:36.426 [info] [perf] Render performance baseline is 13ms
+2024-08-28 07:28:36.993 [warning] Failed to fetch chat participant registry Failed to fetch
+2024-08-28 07:33:38.013 [warning] Failed to fetch chat participant registry Offline

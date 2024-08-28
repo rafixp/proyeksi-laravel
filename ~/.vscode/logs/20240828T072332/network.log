@@ -1,0 +1,11 @@
+2024-08-28 07:23:34.681 [error] electron #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9 - error undefined net::ERR_INTERNET_DISCONNECTED
+2024-08-28 07:23:34.684 [error] electron #1: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED
+2024-08-28 07:23:35.723 [error] electron #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-08-28 07:23:38.065 [error] electron #4: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-08-28 07:23:38.674 [error] electron #5: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-08-28 07:23:40.974 [error] electron #6: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-08-28 07:23:54.577 [error] electron #7: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-08-28 07:23:57.214 [error] electron #8: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-08-28 07:24:02.560 [error] electron #9: https://update.code.visualstudio.com/api/update/linux-x64/stable/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9 - error undefined net::ERR_INTERNET_DISCONNECTED
+2024-08-28 07:28:36.993 [error] electron #10: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2024-08-28 07:33:37.978 [error] electron #11: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED

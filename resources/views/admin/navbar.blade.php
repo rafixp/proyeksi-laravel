@@ -152,7 +152,7 @@
 							</a>
 						</li>
 						<li class="mx-4 mt-2">
-							<a href="admin/logout" class="btn btn-primary btn-block"><span class="btn-label mr-2"> <i class="fa fa-power-off"></i> </span>Logout</a> 
+							<a href="/admin/logout" class="btn btn-primary btn-block"><span class="btn-label mr-2"> <i class="fa fa-power-off"></i> </span>Logout</a> 
 						</li>
 					</ul>
 				</div>

@@ -10,6 +10,7 @@ use App\Models\Paket;
 use App\Models\Transaksi;
 use App\Models\User;
 use Session;
+use Auth;
 
 class adminController extends Controller
 {
@@ -192,7 +193,8 @@ class adminController extends Controller
     }
 
     public function transaksiView(){
-        return view('admin.transaksi.transaksi');
+        $get = Transaksi::latest()->get();
+        return view('admin.transaksi.transaksi', compact('get'));
     }
 
     public function tambahTransaksiView(){
@@ -224,5 +226,10 @@ class adminController extends Controller
             Session::flash('fail','Data Transaksi gagal ditambahkan !');
             return redirect('/admin/transaksi');
         }
+    }
+
+    public function logout(){
+        Auth::logout();
+        return redirect('/login');
     }
 }
